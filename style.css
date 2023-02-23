@@ -1,0 +1,133 @@
+/* Telas de celular */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    background-color: #4a4640;
+}
+
+header > a {
+    text-decoration: none;
+    color: black;
+    background-color: whitesmoke;
+    padding: 5px 10px;
+    border: 2px solid #56514d;
+    height: 20px;
+    margin-top: 13px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px #fcf2d6b6;
+}
+
+main {
+    margin: auto;
+    width: 100;
+    padding: -10px;
+    background-color: #4a464042;
+    text-align: center;
+}
+
+p {
+    padding: 3px 10px;
+}
+
+p#chapp {
+    display: none;
+}
+
+/* Telas de computadores e tablets */
+header > a:hover {
+    text-decoration: underline black;
+    color: whitesmoke;
+    background-color: #4a4640;
+    border: 2px solid #9f71456e;
+    box-shadow: 2px 2px 12px #fcf2d6b6;
+}
+
+@media screen and (min-width: 992px) {
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+
+}
+
+header {
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    background-color: #4a4640;
+}
+
+header > a {
+    text-decoration: none;
+    color: black;
+    background-color: whitesmoke;
+    padding: 5px 30px;
+    border: 2px solid #56514d;
+    height: 20px;
+    margin-top: 13px;
+    margin-right: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px #fcf2d6b6;
+}
+
+header > a:hover {
+    text-decoration: underline black;
+    color: whitesmoke;
+    background-color: #4a4640;
+    border: 2px solid #9f71456e;
+    box-shadow: 2px 2px 12px #fcf2d6b6;
+}
+
+main {
+    margin: auto;
+    display: flex;
+    width: 90%;
+    padding: 10px 10px 10px 0px;
+    background-color: #4a464042;
+}
+
+p {
+    display: block;
+    width: 100%;
+    flex-flow: column wrap;
+    margin: auto;
+    text-align: center;
+    padding: 34.75px 0 34.75px 0;
+}
+
+img {
+    width: 250px;
+    flex-flow: column wrap;
+}
+
+p#debug {
+    display: none;
+}
+
+p#chapp {
+    display: block;
+}
+
+}
+
+
+
